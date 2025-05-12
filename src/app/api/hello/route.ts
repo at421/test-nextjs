@@ -4,6 +4,6 @@ type Data = {
   name: string;
 };
 
-export async function GET(request: Request) {
+export async function GET() {
   return NextResponse.json<Data>({ name: "John Doe" }, { status: 200 });
 }
