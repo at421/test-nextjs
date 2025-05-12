@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-import type { Metadata } from "next";
 
 // Optional: Define metadata if needed, similar to Head in _document
 // export const metadata: Metadata = {
