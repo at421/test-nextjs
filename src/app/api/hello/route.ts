@@ -1,9 +1,5 @@
 import { NextResponse } from "next/server";
 
-type Data = {
-  name: string;
-};
-
-export async function GET(request: Request) {
+export async function GET() {
   return NextResponse.json({ name: "John Doe" }, { status: 200 });
 }
