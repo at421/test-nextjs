@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -10,6 +9,11 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+export const metadata = {
+  title: 'Home',
+  description: 'Welcome to the homepage',
+}
 
 export default function Home() {
   return (
